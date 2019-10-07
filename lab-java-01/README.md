@@ -14,7 +14,7 @@ ___
   * ελέγξτε (από το μενού `Packages > Settings View > Install Packages/Themes`) ότι έχουν εγκατασταθεί τα:
     - platformio-ide-terminal
     - basic-java-compile
-    - java-autocomplete
+    - autocomplete-java
     - script
     - tool-bar
     - tool-bar-basic
