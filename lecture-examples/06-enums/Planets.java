@@ -21,6 +21,6 @@ public enum Planets {
             p2=p1; p1=p;
         }
 
-        System.out.println(p1+" is colser to Sun than "+p2);
+        System.out.println(p1+" is closer to Sun than "+p2);
     }
 }

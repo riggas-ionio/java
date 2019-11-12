@@ -14,6 +14,7 @@ public enum MediaTypes {
         for (MediaTypes mt: MediaTypes.values()) {
             System.out.println(mt+" \t"+mt.getDescription());
         }
-        new MediaTypes("MP4 Video"); //Raises Error: enum types may not be instantiated
+        // new MediaTypes("MP4 Video"); //Raises Error: enum types may not be instantiated
+        // new MediaTypes.DVD("Optical disk");
     }
 }
