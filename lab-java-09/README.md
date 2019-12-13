@@ -38,3 +38,4 @@ ___
 Σκοπός και του δεύτερου μέρους του δέκατου εργαστηρίου είναι να εξοικειωθείτε με τη χρήση των I/O streams για το Serialization κλάσεων στη Java.
 
 Τροποποιήστε τον κώδικα της κλάσης `Order` του εργαστηρίου 8 έτσι ώστε με την ολοκλήρωση της αλληλεπίδρασης με το χρήστη να αξιοποιεί τη βιβλιοθήκη [Gson](https://github.com/google/gson) ώστε να κάνει serialise τις παραγγελίες που έχει συλλέξει και να τις αποστέλει στο server που εκτελείται με το `server.py` που δίνεται. Για την αποστολή μέσω του δικτύου αξιοποιήστε τη `static` μέθοδο `send` της κλάσης `SocketClient` που επίσης δίνεται, φροντίζοντας να κάνετε κατάλληλο χειρισμό των Exceptions.
+(N.B.: Για τη μετατροπή του `Collection` των `Order`s σε JSON `String`, χρησιμοποιήστε τη μέθοδο της βιβλιοθήκης `String GSon.toJson(Object)`, δείτε [εδώ](https://javadoc.io/static/com.google.code.gson/gson/2.8.6/com.google.gson/com/google/gson/Gson.html#toJson(java.lang.Object)))
