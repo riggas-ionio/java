@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class RatableVideo extends Video implements Ratable, Comparable<RatableVideo> {
-    int ratingsCnt =0;
-    double ratingsSum = 0.0;
+    private int ratingsCnt =0;
+    private double ratingsSum = 0.0;
 
     public RatableVideo(String title, String producer, Genre genre){
         super(title, producer, genre);
