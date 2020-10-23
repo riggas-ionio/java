@@ -1,7 +1,4 @@
 import java.util.*;
-import com.google.gson.*;
-import java.io.*;
-import java.net.*;
 
 public class RatableVideo extends Video implements Ratable, Comparable<RatableVideo> {
     private int ratingsCnt =0;
