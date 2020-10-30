@@ -11,13 +11,13 @@ ___
 
 * **Atom IDE + packages** (λήψη από: https://atom.io/)
   * βεβαιωθείτε ότι είναι εγκατεστημένο το Atom IDE
-  * ελέγξτε (από το μενού `Packages > Settings View > Install Packages/Themes`) ότι έχουν εγκατασταθεί τα:
-    - platformio-ide-terminal
+  * ελέγξτε (από το μενού `Packages > Settings View > Install Packages/Themes`) ότι έχουν εγκατασταθεί τα __(update για Atom 1.52)__:
+    - terminus ~~platformio-ide-terminal~~
     - basic-java-compile
     - autocomplete-java
     - script
     - tool-bar
-    - tool-bar-basic
+    - tool-bar-atom ~~tool-bar-basic~~
 
 ___
 #### Ασκήσεις ####
