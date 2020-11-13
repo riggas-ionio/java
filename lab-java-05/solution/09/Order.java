@@ -34,8 +34,15 @@ public class Order {
     }
 
     public boolean equals(Order other){
+        if (other==null) return false; // To avoid NullPointerException
         return this.itemName.equals(other.itemName)
             && this.netValue == other.netValue;
+    }
+
+    public void merge(Order other){
+        if (other==null) return;
+        this.quantity += other.quantity;
+        this.discount = (this.discount>other.discount)?this.discount:other.discount;
     }
 
     public static void main(String[] args){
