@@ -34,6 +34,7 @@ public class Order {
     }
 
     public boolean equals(Order other){
+        if (other==null) return false; // To avoid NullPointerException
         return this.itemName.equals(other.itemName)
             && this.netValue == other.netValue;
     }
