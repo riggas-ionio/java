@@ -19,10 +19,10 @@ public class OrdersUI {
                     this.add();
                     break;
                 case 'L':
-                    //List
+                    this.list();
                     break;
                 case 'R':
-                    //Remove
+                    System.out.println("Removed: "+this.remove());
                     break;
                 default:
                     System.out.println("Invalid option.");
@@ -85,6 +85,37 @@ public class OrdersUI {
                 return o;
         }
         return null;
+    }
+
+    public void list(){
+        int i=1;
+        for(Order o: this.myOrders){
+            if ( o !=null )
+                System.out.println("Order item "+(i++)+": "+ o);
+            else
+                break;
+        }
+        System.out.println("List items= "+(i-1));
+    }
+
+    public Order remove(){
+        Scanner sc = new Scanner (System.in);
+        int pos;
+        do {
+            System.out.print("Type the order index to remove: ");
+            pos = sc.nextInt();
+        } while( pos<1 || pos>this.myOrders.length);
+        Order o = this.myOrders[pos-1];
+        this.myOrders[pos-1]=null;
+        if ( o==null ){
+            System.out.println("Orders index empty: "+pos);
+            return null;
+        }
+        for( int i=pos; i<=this.myOrders.length-1; i++){
+            this.myOrders[pos-1]=this.myOrders[pos];
+            this.myOrders[pos]=null;
+        }
+        return o;
     }
 
     public static void main(String[] args){
