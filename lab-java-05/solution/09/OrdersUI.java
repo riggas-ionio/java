@@ -41,6 +41,52 @@ public class OrdersUI {
         return null;
     }
 
+    public void list(){
+        int i = 1;
+        for(Order o: this.myOrders){
+            if ( o!=null ){
+                System.out.println("List item "+ i + ": "+ o);
+            } else {
+                System.out.println("Orders list contains "+(i-1)+" items.");
+                break;
+            }
+            i++;
+        }
+    }
+
+    public Order remove(){
+        Scanner sc = new Scanner(System.in);
+        // System.out.print("Type the item number to remove: ");
+        // int i = sc.nextInt();
+        // if ( i<0 || i>this.myOrders.length-1){
+        //     System.out.println("Order index out of bounds: "+i);
+        //     return null;
+        // }
+        int i;
+        do {
+            System.out.print("Type the item number to remove: ");
+            i = sc.nextInt();
+            if ( i<1 || i>this.myOrders.length){
+                System.out.println("Order index out of bounds: "+i);
+            }
+        } while (i<1 || i>this.myOrders.length); //NB.: 1-based, not 0-based
+        Order o = this.myOrders[i-1];
+        if (o==null){
+            System.out.println("Order does not exist at: "+i);
+            return null;
+        }
+        this.myOrders[i-1]=null;
+        for(int j=i; j<=this.myOrders.length-1; j++){
+            this.myOrders[j-1] = this.myOrders[j];
+            if (this.myOrders[j]==null){
+                break;
+            }
+            this.myOrders[j] = null;
+        }
+        this.position--;
+        return o;
+    }
+
     public void menu() {
         System.out.println("Welcome to the super Orders system!!!");
         Scanner sc = new Scanner(System.in);
@@ -63,10 +109,10 @@ public class OrdersUI {
                     this.add();
                     break;
                 case 'L':
-                    // List...
+                    this.list();
                     break;
                 case 'R':
-                    // Remove...
+                    System.out.println("Removed: "+this.remove());
                     break;
             }
 
