@@ -2,8 +2,10 @@
 ___
 Σκοπός του πέμπτου εργαστηρίου είναι να εξοικειωθείτε με τη χρήση πινάκων αντικειμένων ως μέλη δεδομένων και με το πέρασμά τους παραμέτρους ή επιστρεφόμενες τιμές στη γλώσσα προγραμματισμού Java.
 Μελετήστε τα javadocs:
+
     * https://docs.oracle.com/javase/8/docs/api/java/util/List.html
-    * https://docs.oracle.com/javase/8/docs/api/java/util/Map.html 
+    * https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
+    
 ___
 #### Άσκηση (α\' μέρος) ####
 ___Χρησιμοποιείστε τον κώδικα του εργαστηρίου 4 για την κλάση Order___
