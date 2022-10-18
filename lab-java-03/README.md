@@ -41,9 +41,9 @@ _**Επίλυση > codecheck > Download > Υποβολή στον opencourses**
 
 *  ![MEDI](https://via.placeholder.com/15/ffa500/ffa500.png) `MEDI`
     Συμπληρώστε τον κώδικα της κλάσης, κατασκευαστές και μεθόδους, η οποία αναπαριστά ένα ορθογώνιο παραλληλεπίδο (_ένα κουτί_) και παρέχει μεθόδους για τον υπολογισμό του όγκου  
-    $${2*(width*height+height*depth+depth*width)}$$  
+    $${2 * (width * height + height * depth + depth * width)}$$  
     και της επιφάνειας  
-    $$\sqrt{width^2+height^2+depth^2}$$
+    $$\sqrt{width^2 + height^2 + depth^2}$$
     του κουτιού.
 
     https://codecheck.io/files/wiley/codecheck-bjlo-1-class-111
