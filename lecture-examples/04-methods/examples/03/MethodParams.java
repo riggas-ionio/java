@@ -5,7 +5,8 @@ public class MethodParams {
     public static void swap(int a, int b) {
         int temp = a;
         a=b;
-        b=a;
+        b=temp;
+        System.out.printf("(x,y)= (%d, %d) IN swap(int, int) %n", a, b);
     }
     public static void swap(Point p) {
         int temp = p.x;
