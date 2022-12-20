@@ -29,7 +29,5 @@ public class Calculator2{
 
             System.out.println(param1 + " times " + param2 + " equals " + res);
         }    
-
-    }
-        
+    }      
 }
