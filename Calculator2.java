@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator2 {
+public class Calculator2{
     public int add(int i1, int i2){
         int sum=i1+i2;
         return sum;
@@ -15,20 +15,20 @@ public class Calculator2 {
     }
 
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            int param1,param2,res;
 
-        int param1,param2,res;
+            System.out.println("Provide two positive intregers: ");
 
-        System.out.println("Provide two positive intregers: ");
+            param1=sc.nextInt();
+            param2=sc.nextInt();
 
-        param1=sc.nextInt();
-        param2=sc.nextInt();
+            Calculator2 clt=new Calculator2();
 
-        Calculator2 clt=new Calculator2();
+            res=clt.multiply(param1,param2);
 
-        res=clt.multiply(param1,param2);
-
-        System.out.println(param1 + " times " + param2 + " equals " + res);    
+            System.out.println(param1 + " times " + param2 + " equals " + res);
+        }    
 
     }
         
