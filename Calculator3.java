@@ -7,15 +7,16 @@ public class Calculator3 {
     }
 
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int param1,param2;
-        System.out.println("Provide two integers:");
+        try (Scanner sc = new Scanner(System.in)) {
+            int param1,param2;
+            System.out.println("Provide two integers:");
 
-        param1=sc.nextInt();
-        param2=sc.nextInt();
+            param1=sc.nextInt();
+            param2=sc.nextInt();
 
-        int res=Calculator3.add(param1, param2);
+            int res=Calculator3.add(param1, param2);
 
-        System.out.println(param1 + " plus " + param2 + " equals " + res);
+            System.out.println(param1 + " plus " + param2 + " equals " + res);
+        }
     }
 }
