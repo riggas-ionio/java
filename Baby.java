@@ -1,4 +1,4 @@
-public	class	Baby	{	
+public class Baby{
     String	name;	
     double	weight	=	4.0;	
     boolean isABoy;	
