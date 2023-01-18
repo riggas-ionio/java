@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class ConfussedCalculator {
     public double multiply(int i1, int i2){
         double multi=i1*i2;
@@ -11,7 +9,7 @@ public class ConfussedCalculator {
     }
     public static void main(String[] args){
         ConfussedCalculator clt=new ConfussedCalculator();
-        clt.multiply(5,10.0);
+       // clt.multiply(5,10.0);
         clt.multiply(5.0,10);
 
        // clt.multiply(5.10);
