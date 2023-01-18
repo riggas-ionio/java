@@ -15,14 +15,14 @@ public class Arrays {
         String[] class_names = {"Sem-A", "Sem-B"};
         System.out.println( class_names );
 
-        int[] nums;
-        nums = {5, 6, 7}; // Compile error!!!
+        //int[] nums;
+        //nums = {5, 6, 7}; // Compile error!!!
         // int[] nums = {5, 6, 7}; // FIXED: Compile error!!!
-        System.out.println( nums[0] );
+        //System.out.println( nums[0] );
 
-        int x=0, y=1;
-        String[] names = new String[10], surnames = new String[10];
-        System.out.println(names[0]);
+        //int x=0, y=1;
+        //String[] names = new String[10], surnames = new String[10];
+        //System.out.println(names[0]);
 
     }
 }
