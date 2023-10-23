@@ -7,7 +7,7 @@ ___
 ___
 #### Ασκήσεις εξάσκησης ####
 
-1. ![EASY](https://via.placeholder.com/15/c5f015/c5f015.png) `EASY`
+1. ![EASY](../c5f015.png) `EASY`
 Υπολογίστε το εμβαδόν παραλληλόγραμμου και εκτυπώστε το.  
     https://codecheck.io/files/wiley/codecheck-bjlo-1-fundat-101
 
