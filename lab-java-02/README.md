@@ -12,7 +12,7 @@ ___
     https://codecheck.io/files/wiley/codecheck-bjlo-1-fundat-101
 
 2. ![MEDI](https://github.com/riggas-ionio/java/blob/master/img/ffa500.png) `MEDI`
-   Ομοίως με πριν, με αξιοποίηση της κλάσης `java.util.Scanner` για είσοδο από το χρήστη. Στο codecheck η είδοσος δίνεται αυτόματα από το σύστημα, εσείς όμως πρέπει να προγραμματίσετε χρησιμοποιώντας την `Scanner`, δείτε διαφάνειες μαθήματος 25-27.  
+   Ομοίως με πριν, με αξιοποίηση της κλάσης `java.util.Scanner` για είσοδο από το χρήστη. Στο codecheck η είσοδος δίνεται αυτόματα από το σύστημα, εσείς όμως πρέπει να προγραμματίσετε χρησιμοποιώντας την `Scanner`, δείτε διαφάνειες μαθήματος 25-27.  
     https://codecheck.io/files/wiley/codecheck-bjlo-1-fundat-102
 
 2. ![MEDI](https://github.com/riggas-ionio/java/blob/master/img/ffa500.png) `MEDI`
