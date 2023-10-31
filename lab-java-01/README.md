@@ -36,7 +36,7 @@ ___
 
 ___
 #### Ασκήσεις ####
-* Στο περιβάλλον codeckeck λύστε το Parsons puzzle `Hello World`:
+* Στο περιβάλλον codecheck λύστε το Parsons puzzle `Hello World`:
     https://codecheck.io/files/2210040845ehutdcsp7wbjhky9u663v9xdx  
     * Όταν πετύχετε να κάνετε `compile` την κλάση:
         ![Download from codecheck](codecheck.png)
