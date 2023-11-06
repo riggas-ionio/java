@@ -42,7 +42,7 @@ ___
 #### Άσκηση αυτοαξιολόγησης ####
 _**Επίλυση > codecheck > Download > Υποβολή στον opencourses**_
 
-*  ![MEDI](https://github.com/riggas-ionio/java/blob/master/img/ffa500.png) `MEDI``
+*  ![MEDI](https://github.com/riggas-ionio/java/blob/master/img/ffa500.png) `MEDI`
     Συμπληρώστε τον κώδικα της μεθόδου `countPerfectSquares` ώστε να επιστρέφει το πλήθος των τέλειων τετραγώνων στο εύρος των δύο παραμέτρων `a` και `b` της μεθόδου.
     Hint: ένα τέλειο τετράγωνο είναι ένας φυσικός αριθμός που είναι τετράγωνο ενός φυσικού αριθμού. Πώς μπορεί η `Math.sqrt` να σας βοηθήσει;  
     https://codecheck.io/files/wiley/codecheck-bj-4-loop-104
