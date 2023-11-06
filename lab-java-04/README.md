@@ -1,0 +1,48 @@
+### Εργαστήριο #4 - Μέθοδοι
+___
+Σκοπός του τέταρτου εργαστηρίου είναι να εξοικειωθείτε με βασικά στοιχεία της γλώσσας προγραμματισμού Java: Μέθοδοι.
+Οι ασκήσεις αυτής της εβδομάδας είναι self-paced και υλοποιούνται μέσω του codecheck.  
+Όπως και τις περασμένες εβδομάδες, **υποβάλετε στο opencourses** τον αρχείο που κάνετε `Download` για την **τελευταία (μόνο) άσκηση (=αυτοαξιολόγησης)**.
+
+___
+#### Ασκήσεις εξάσκησης ####
+
+1. ![EASY](https://github.com/riggas-ionio/java/blob/master/imgc5f015.png) `EASY`
+    Συμπληρώστε την υλοποίηση της μεθόδου `decimalDegrees` ώστε να μετατρέπει μια αναπαράσταση γωνίας σε μοίρες, πρώτα και δεύτερα λεπτά σε δεκαδική.  
+    Hint: διαιρείτε τα πρώτα λεπτά με εξήντα και ανάλογα τα δεύτερα λεπτά.
+    Hint: προσοχή σε θετικές και αρνητικές γωνίες.  
+    https://codecheck.io/files/wiley/codecheck-bj-4-fundat-106
+
+1. ![EASY](https://github.com/riggas-ionio/java/blob/master/imgc5f015.png) `EASY`
+    Συμπληρώστε την υλοποίηση της μεθόδου `evaluate` ώστε να επιστρέφει τον υπολογισμό που υποδεικνύει η πρώτη παράμετρος.  
+    https://codecheck.io/files/wiley/codecheck-bjlo-1-funct-111
+
+1. ![EASY](https://github.com/riggas-ionio/java/blob/master/imgc5f015.png) `EASY`
+    Συμπληρώστε την υλοποίηση της μεθόδου `countSevens` ώστε να επιστρέφει το πλήθος των ψηφίων `7` που εμφανίζονται σε ένα αριθμό.  
+    https://codecheck.io/files/wiley/codecheck-bjlo-1-funct-109
+
+2. ![MEDI](https://github.com/riggas-ionio/java/blob/master/imgffa500.png) `MEDI`
+    Συμπληρώστε την υλοποίηση της μεθόδου `convert` ώστε να μετατρέπει μια αναπαράσταση γωνίας από δεκαδική σε μοίρες, πρώτα και δεύτερα λεπτά.
+    Hint: η `Math.round(double)` στρογγυλοποιεί ένα αριθμό κινητής υποδιαστολής, στον κοντινότερο ακέραιο αλλά ο τύπος παραμένει κινητής υποδιαστολής. Αν θέλετε τον κοντινότερο ακέραιο χρειάζεται explicit casting.   
+    https://codecheck.io/files/wiley/codecheck-bj-4-fundat-107
+
+2. ![MEDI](https://github.com/riggas-ionio/java/blob/master/imgffa500.png) `MEDI`
+    Συμπληρώστε τον κώδικα της κλάσης, υλοποιώντας μία **στατική** μέθοδο με όνομα `sumOddsInRange` και δύο παραμέτρους τύπου `int` για πάνω και κάτω όριο. Εντός της main υπολογίστε το ζητούμενο (άθροισμα όλων των περιττών αριθμών μεταξύ των δύο τιμών που δίνει ο χρήστης) με κλήση της μεθόδου που υλοποιήσατε.
+    https://codecheck.io/files/wiley/codecheck-bjlo-1-loop-102
+
+3. ![HARD](https://github.com/riggas-ionio/java/blob/master/imgf03c15.png) `HARD`
+    Συμπληρώστε τον κώδικα της κλάσης, υλοποιώντας μία **στατική** μέθοδο με όνομα `binaryDigits` και παράμετρο τύπου `int`, η οποία μετατρέπει την παράμετρο από δεκαδική σε δυαδική μορφή (με όποιο τρόπο ξέρετε/μπορείτε) και επιστρέφει το πλήθος των δυαδικών ψηφίων του αριθμού.  
+    https://codecheck.io/files/wiley/codecheck-bj-4-class2-104
+
+3. ![HARD](https://github.com/riggas-ionio/java/blob/master/imgf03c15.png) `HARD`
+    Συμπληρώστε τον κώδικα της κλάσης, υλοποιώντας μία **αναδρομική στατική** μέθοδο με όνομα `factorial` και παράμετρο μία παράμετρο τύπου `int`, έστω `n`. Η μέθοδος `factorial` που υλοποιείτε θα πρέπει να επιστρέφει το γινόμενο $${ n * factorial(n-1) }$$ για `n > 1` ή `1` αλλιώς. Εντός της main καλέστε τη `factorial` με παράμετρο την τιμή που δίνει ο χρήστης.  
+    https://codecheck.io/files/wiley/codecheck-bjlo-1-loop-107
+
+
+#### Άσκηση αυτοαξιολόγησης ####
+_**Επίλυση > codecheck > Download > Υποβολή στον opencourses**_
+
+*  ![MEDI](https://github.com/riggas-ionio/java/blob/master/imgffa500.png) `MEDI`
+    Συμπληρώστε τον κώδικα της μεθόδου `countPerfectSquares` ώστε να επιστρέφει το πλήθος των τέλειων τετραγώνων στο εύρος των δύο παραμέτρων `a` και `b` της μεθόδου.
+    Hint: ένα τέλειο τετράγωνο είναι ένας φυσικός αριθμός που είναι τετράγωνο ενός φυσικού αριθμού. Πώς μπορεί η `Math.sqrt` να σας βοηθήσει;  
+    https://codecheck.io/files/wiley/codecheck-bj-4-loop-104
