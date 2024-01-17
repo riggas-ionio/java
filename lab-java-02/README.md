@@ -12,7 +12,7 @@ ___
     https://codecheck.io/files/wiley/codecheck-bjlo-1-fundat-101
 
 2. ![MEDI](https://github.com/riggas-ionio/java/blob/master/img/ffa500.png) `MEDI`
-   Ομοίως με πριν, με αξιοποίηση της κλάσης `java.util.Scanner` για είσοδο από το χρήστη. Στο codecheck η είδοσος δίνεται αυτόματα από το σύστημα, εσείς όμως πρέπει να προγραμματίσετε χρησιμοποιώντας την `Scanner`, δείτε διαφάνειες μαθήματος 25-27.  
+   Ομοίως με πριν, με αξιοποίηση της κλάσης `java.util.Scanner` για είσοδο από το χρήστη. Στο codecheck η είσοδος δίνεται αυτόματα από το σύστημα, εσείς όμως πρέπει να προγραμματίσετε χρησιμοποιώντας την `Scanner`, δείτε διαφάνειες μαθήματος 25-27.  
     https://codecheck.io/files/wiley/codecheck-bjlo-1-fundat-102
 
 2. ![MEDI](https://github.com/riggas-ionio/java/blob/master/img/ffa500.png) `MEDI`
@@ -23,7 +23,7 @@ ___
 3. ![HARD](https://github.com/riggas-ionio/java/blob/master/img/f03c15.png) `HARD`
    Υπολογίστε και εκτυπώστε την απόσταση μεταξύ δύο σημείων με συντεταγμένες `(x1, y1)` και  `(x2, y2)`. Ο τύπος της απόστασης είναι  
    $$\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$$  
-   _Hint:_  Για τον υπολογισμό των πράξεων ύψωσης σε δύναμη και τετραγωνικής ρίζας, θα πρέπει να αξιοποιήσετε την βιβλιοθήκη κλάση `java.lang.Math`. Πριν τον κώδικα της κλάσης σας κάντε `import` τη βιβλιοθήκη, όπως ακριβώς γίνεται `import` και η `java.util.Scanner`. Για τον υμπολογισμό μιας δύναμης, πχ 3<sup>5</sup>, καλείτε `Math.pow(3,5)`, ενώ για τον υπολογισμό μιας τετραγωνικής ρίζας, πχ ρίζα του 3, καλείτε `Math.sqrt(3)`.  
+   _Hint:_  Για τον υπολογισμό των πράξεων ύψωσης σε δύναμη και τετραγωνικής ρίζας, θα πρέπει να αξιοποιήσετε την βιβλιοθήκη κλάση `java.lang.Math`. Πριν τον κώδικα της κλάσης σας κάντε `import` τη βιβλιοθήκη, όπως ακριβώς γίνεται `import` και η `java.util.Scanner`. Για τον υπολογισμό μιας δύναμης, πχ 3<sup>5</sup>, καλείτε `Math.pow(3,5)`, ενώ για τον υπολογισμό μιας τετραγωνικής ρίζας, πχ ρίζα του 3, καλείτε `Math.sqrt(3)`.  
    https://codecheck.io/files/wiley/codecheck-bjlo-1-fundat-103
 
 3. ![HARD](https://github.com/riggas-ionio/java/blob/master/img/f03c15.png) `HARD`
