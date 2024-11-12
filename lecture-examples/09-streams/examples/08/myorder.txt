@@ -1,0 +1,1 @@
+{"itemName":"Bike","netValue":100.0,"quantity":1,"discount":0.0}
