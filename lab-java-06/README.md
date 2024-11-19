@@ -8,7 +8,7 @@ ___
 #### Ασκήσεις εξάσκησης ####
 
 1. ![EASY](https://via.placeholder.com/15/c5f015/c5f015.png) `EASY`
-    Συνμπληρώστε τον constructor της `SavingsAccount` η οποία είναι υπερκλάση της `BankAccount`. Μην προσθέσετε νέο μέλος δεδομένων στην κλάση `SavingsAccount`, απλά αξιοποιήστε το μέλος `balance` της `BankAccount` (αλλά είναι private... 🤔, όμως μπορείτε να τα χειριστείτε μέσω των public μεθόδων της!).  
+    Συνμπληρώστε τον constructor της `SavingsAccount` η οποία είναι υποκλάση της `BankAccount`. Μην προσθέσετε νέο μέλος δεδομένων στην κλάση `SavingsAccount`, απλά αξιοποιήστε το μέλος `balance` της `BankAccount` (αλλά είναι private... 🤔, όμως μπορείτε να τα χειριστείτε μέσω των public μεθόδων της!).  
     https://codecheck.io/files/wiley/codecheck-bjlo-1-inher-101
 
 1. ![EASY](https://via.placeholder.com/15/c5f015/c5f015.png) `EASY`
