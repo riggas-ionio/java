@@ -23,7 +23,7 @@ ___
         - linter-java και dependencies
 
 * **[Cloud]** _Εναλλακτικά_ για το cloud based IDE GoormIDE βεβαιωθείτε ότι έχετε δημιουργήσει ένα java based container, ακολουθώντας τις οδηγίες στις διαφάνειες της πρώτης διάλεξης.
-    * Ελέξτε όπως πιο πάνω την ύπαρξης **σωστής έκδοσης** **JVM** και **JDK**.
+    * Ελέγξτε όπως πιο πάνω την ύπαρξης **σωστής έκδοσης** **JVM** και **JDK**.
 
 ___
 #### Μελέτη (_πριν έρθετε στο εργαστήριο_): ####
@@ -36,7 +36,7 @@ ___
 
 ___
 #### Ασκήσεις ####
-* Στο περιβάλλον codeckeck λύστε το Parsons puzzle `Hello World`:
+* Στο περιβάλλον codecheck λύστε το Parsons puzzle `Hello World`:
     https://codecheck.io/files/2210040845ehutdcsp7wbjhky9u663v9xdx  
     * Όταν πετύχετε να κάνετε `compile` την κλάση:
         ![Download from codecheck](codecheck.png)
