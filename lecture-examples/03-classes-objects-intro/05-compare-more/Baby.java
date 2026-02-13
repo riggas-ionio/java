@@ -20,6 +20,10 @@ public class Baby {
         this.weight = weight;
     }
 
+    public boolean equals(Baby other){
+        return this.name == other.name;
+    }
+
     public static void main(String[] args) {
         // Δημιουργούμε το πρώτο μωρό
         Baby george1 = new Baby("George", true);
@@ -34,6 +38,9 @@ public class Baby {
       // Συγκρίνουμε τα δυο αντικείμενα
       System.out.println(george1 == george3);
       // Τι θα εμφανίσει;
+      // Συγκρίνουμε τα δυο αντικείμενα
+      System.out.println(george1.equals(george2));
+      
     }
 }
 
