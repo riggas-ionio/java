@@ -40,7 +40,7 @@ ___
 
 
 #### Άσκηση αυτοαξιολόγησης ####
-_**Επίλυση > codecheck > Download > Υποβολή στον opencourses**_
+_**Επίλυση > codecheck > Download > Υποβολή στο [🔗 opencourses](https://opencourses.ionio.gr/modules/work/index.php?course=DDI302&id=10879)**_
 
 *  ![MEDI](https://raw.githubusercontent.com/riggas-ionio/java/refs/heads/master/img/ffa500.png) `MEDI`
     Συμπληρώστε τον κώδικα της κλάσης, κατασκευαστές και μεθόδους, η οποία αναπαριστά ένα ορθογώνιο παραλληλεπίπεδο (_ένα κουτί_) και παρέχει μεθόδους για τον υπολογισμό του όγκου  

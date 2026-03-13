@@ -51,7 +51,7 @@ ___
     https://codecheck.io/files/wiley/codecheck-bjlo-1-loop-105
 
 #### Άσκηση αυτοαξιολόγησης ####
-_**Επίλυση > codecheck > Download > Υποβολή στον [🔗 opencourses](https://opencourses.ionio.gr/modules/work/index.php?course=DDI302&id=10879)**_
+_**Επίλυση > codecheck > Download > Υποβολή στο [🔗 opencourses](https://opencourses.ionio.gr/modules/work/index.php?course=DDI302&id=10879)**_
 
 *  ![MEDI](https://raw.githubusercontent.com/riggas-ionio/java/refs/heads/master/img/ffa500.png) `MEDI`
     Συμπληρώστε την κλάση `ConvertTemp` η οποία διαβάζει μία θερμοκρασία σε κλίμακα Fahenheit, τη μετατρέπει σε Celsius και Kelvin και εκτυπώνει και τις δύο.  
